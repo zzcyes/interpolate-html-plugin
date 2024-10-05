@@ -1,0 +1,35 @@
+{
+  "name": "@zzcyes/interpolate-html-plugin",
+  "version": "0.0.2",
+  "description": "Compatible with getCompilationHooks for react-dev-utils/interpolate-html-plugin.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "html",
+    "interpolation",
+    "plugin",
+    "webpack"
+  ],
+  "author": "zzcyes",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzcyes/interpolate-html-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zzcyes/interpolate-html-plugin/issues"
+  },
+  "homepage": "https://github.com/zzcyes/interpolate-html-plugin#readme"
+}
